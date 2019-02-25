@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 10
+    },
+    "age": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 999
+    },
+    "comment": { "type": "string" }
+  }
+}
